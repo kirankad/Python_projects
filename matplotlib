@@ -1,0 +1,30 @@
+# import matplotlib.pyplot as plt
+# import pandas as pd
+
+# Python=[20, 40, 25, 63, 54, 34, 34, 67, 89, 23, 45, 78]
+# Java= [45, 42, 64, 72, 57, 35, 78, 34, 78, 56, 45, 73]
+# C=[34, 54, 23, 67, 23, 34, 56, 53, 36, 89, 45, 34]
+# Data_structures=[45, 45, 56, 56, 34, 45, 56, 23, 78, 78, 67, 23]
+
+# Index=['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+
+# plt.figure(figsize=(9,5))
+# width = 0.35
+
+# plt.subplot(221)
+# plt.bar(Index,Python)
+# plt.gca().set_title('Python')
+
+# plt.subplot(222)
+# plt.scatter(Index,Java)
+# plt.gca().set_title('Java')
+
+# plt.subplot(223)
+# plt.plot(Index,C)
+# plt.gca().set_title('C')
+
+# plt.subplot(224)
+# plt.plot(Index,Data_structures)
+# plt.gca().set_title('Data_structures')
+
+# plt.show()
